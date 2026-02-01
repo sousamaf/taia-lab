@@ -1,5 +1,12 @@
 .venv/
 __pycache__/
-models/
-reports/
 .DS_Store
+models/*
+reports/*
+data/raw/*
+data/processed/*
+
+!models/.gitkeep
+!reports/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
