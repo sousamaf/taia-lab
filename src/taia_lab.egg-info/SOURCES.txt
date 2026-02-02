@@ -6,6 +6,8 @@ src/taia_lab.egg-info/SOURCES.txt
 src/taia_lab.egg-info/dependency_links.txt
 src/taia_lab.egg-info/top_level.txt
 src/taia_lab/pipelines/minimal_pipeline.py
+src/taia_lab/pipelines/run_experiment.py
+src/taia_lab/pipelines/tracked_pipeline.py
 src/taia_lab/utils/paths.py
 src/taia_lab/utils/seed.py
 tests/test_sanity.py
