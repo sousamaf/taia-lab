@@ -10,3 +10,6 @@ data/processed/*
 !reports/.gitkeep
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+
+# MLflow (experimentos locais)
+mlruns/*
