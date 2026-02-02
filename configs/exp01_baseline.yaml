@@ -1,0 +1,28 @@
+experiment:
+  name: exp01_baseline
+  description: >
+    Experimento base para comparação. Objetivo: estabelecer uma referência de desempenho
+    com parâmetros conservadores e reprodutíveis.
+
+data:
+  seed: 42
+  n_samples: 1200
+  n_features: 20
+  test_size: 0.20
+
+train:
+  epochs: 5
+  batch_size: 64
+  lr: 0.001
+
+model:
+  type: tiny_mlp
+  hidden_dim: 64
+  n_classes: 2
+
+tracking:
+  tool: mlflow
+  experiment_name: taia-aula03
+  tags:
+    aula: aula03
+    purpose: baseline
